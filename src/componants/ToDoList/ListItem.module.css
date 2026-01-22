@@ -1,0 +1,86 @@
+.status {
+  display: flex;
+  gap: 10px;
+  padding: 50px 30px 30px 30px;
+  border-bottom: 1px solid #f3f4f6;
+  align-items: center;
+}
+
+.status button {
+  border: none;
+  background-color: #fff;
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+.status button span {
+  padding: 5px 10px;
+  background-color: #eceef2;
+  color: #000;
+  margin-left: 10px;
+  border-radius: 10px;
+}
+
+.status button.active {
+  background: linear-gradient(to right, rgb(182 68 255), rgb(220 62 253));
+  color: #fff;
+}
+
+.status .clear-completed {
+  color: red;
+  margin-left: auto;
+}
+
+.itemList-contain {
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.itemList-contain p {
+  color: #afb6c0;
+}
+
+.item {
+  display: flex;
+  align-items: flex-start;
+  padding: 40px 30px;
+  gap: 20px;
+  border-bottom: 1px solid #f3f4f6;
+}
+
+.item-contain {
+  display: flex;
+  flex-direction: column;
+}
+
+.item-contain h3 {
+  margin: 0;
+}
+
+.date {
+  color: #a7aeba;
+}
+
+.completed {
+  color: #a7aeba;
+  text-decoration: line-through;
+}
+
+.trash-icon {
+  display: none;
+  color: rgb(251 44 54);
+  margin-left: auto;
+  padding: 5px;
+}
+
+.trash-icon:hover {
+  background-color: oklch(0.97 0.01 17.4);
+  border-radius: 5px;
+}
+
+.item:hover .trash-icon {
+  display: block;
+}

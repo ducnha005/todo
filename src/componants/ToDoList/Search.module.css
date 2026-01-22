@@ -1,0 +1,45 @@
+.addList {
+  display: flex;
+  background-color: #faeffe;
+  padding: 20px 30px;
+}
+.addList input {
+  width: 70%;
+  padding: 10px;
+  border: solid 1px #e9d4ff;
+  background-color: #f3f3f5;
+  border-radius: 10px;
+}
+
+.addList button {
+  width: 20%;
+  background: linear-gradient(to right, rgb(182 68 255), rgb(220 62 253));
+  border: none;
+  border-radius: 10px;
+  margin-left: 20px;
+  display: flex;
+  justify-content: center;
+  color: #fff;
+  align-items: center;
+  cursor: pointer;
+}
+
+.addList .button {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.addList button span:first-child {
+  font-size: 30px;
+}
+
+.addList button span:last-child {
+  font-weight: bold;
+}
+
+@media (max-width: 480px) {
+  .addList .button {
+    gap: 5px;
+  }
+}

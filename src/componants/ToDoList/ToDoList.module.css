@@ -1,0 +1,19 @@
+.toDoList {
+  width: 1000px;
+  margin: auto;
+  background-color: #fff;
+  box-shadow: 4px 6px 12px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+}
+
+@media (max-width: 480px) {
+  .toDoList {
+    width: 400px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .toDoList {
+    width: 700px;
+  }
+}
